@@ -30,16 +30,16 @@ load-module module-jack-sink
 load-module module-jack-source
 ```
 
-2. pulseaudio --kill
-3. pasuspender -- jackd -d alsa
+2. ``` pulseaudio --kill ```
+3. ``` pasuspender -- jackd -d alsa ```
 
 Stopping the stream:
 --------------------
 
 1. Ctrl+C (To kill the jackd process)
 2. Remove the lines added in step 1 of startup from the file.
-3. pulseaudio --start
-4. killall indicator-sound-service
+3. ``` pulseaudio --start ```
+4. ``` killall indicator-sound-service ```
 
 TODO:
 -----
