@@ -21,8 +21,14 @@ Starting the stream:
 Add the following lines (remove them when you shutdown the jack server):
 ```
 # Make JACK work
+```
+```
 ### Load audio drivers statically
+```
+```
 load-module module-jack-sink
+```
+```
 load-module module-jack-source
 ```
 2. pulseaudio --kill
