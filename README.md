@@ -8,11 +8,11 @@ Note: This is just a prototype for demonstration and the perfomance is not at al
 Dependencies:
 -------------
 
-Jack C library
-Py-Jack (Python bindings for Jack)
-Numpy
-Scipy
-Pydub (Audio transcoding module for Python, non realtime)
+Jack C library 
+Py-Jack (Python bindings for Jack) 
+Numpy 
+Scipy 
+Pydub (Audio transcoding module for Python, non realtime) 
 
 Starting the stream:
 --------------------
