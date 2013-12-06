@@ -20,10 +20,10 @@ Starting the stream:
 1. Edit the file (with sudo previlleges): /etc/pulse/default.pa
 Add the following lines (remove them when you shutdown the jack server):
 ```
-  # Make JACK work
-  ### Load audio drivers statically
-  load-module module-jack-sink
-  load-module module-jack-source
+# Make JACK work
+### Load audio drivers statically
+load-module module-jack-sink
+load-module module-jack-source
 ```
 2. pulseaudio --kill
 3. pasuspender -- jackd -d alsa
